@@ -6,4 +6,4 @@ Images in the Skin cancer HAM10000 dataset have pixel-level instance segmentatio
 
 Here are the visualized examples for each of the 7 classes:
 
-[Dataset classes](https://github.com/dataset-ninja/skin-cancer-ham10000/raw/main/visualizations/classes_preview.webm)
+[Dataset classes](https://github.com/dataset-ninja/skin-cancer-ham10000/raw/main/visualizations/horizontal_grid.webm)
