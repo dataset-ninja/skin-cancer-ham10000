@@ -17,10 +17,12 @@ CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
 
 RELEASE_YEAR: int = 2021
-HOMEPAGE_URL: str = "https://www.kaggle.com/datasets/surajghuwalewala/ham1000-segmentation-and-classification"
+HOMEPAGE_URL: str = (
+    "https://www.kaggle.com/datasets/surajghuwalewala/ham1000-segmentation-and-classification"
+)
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = None
+PREVIEW_IMAGE_ID: int = 1532721
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/skin-cancer-ham10000"
@@ -29,7 +31,9 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/skin-cancer-ham10000"
 ##################################
 ### * Optional after uploading ###
 ##################################
-DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = "https://www.kaggle.com/datasets/surajghuwalewala/ham1000-segmentation-and-classification/download?datasetVersionNumber=2"
+DOWNLOAD_ORIGINAL_URL: Optional[
+    Union[str, dict]
+] = "https://www.kaggle.com/datasets/surajghuwalewala/ham1000-segmentation-and-classification/download?datasetVersionNumber=2"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
 CLASS2COLOR: Optional[Dict[str, List[str]]] = None
