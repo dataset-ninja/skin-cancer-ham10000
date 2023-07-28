@@ -1,9 +1,11 @@
-**Skin cancer HAM10000** is a dataset for instance segmentation tasks. It is used in the medical industry.
+**Skin Cancer: HAM10000** is a dataset for a semantic segmentation task. It is used in the medical research. The dataset presented here is a remix of the original dataset. Learn more on the dataset's [homepage](https://www.kaggle.com/datasets/surajghuwalewala/ham1000-segmentation-and-classification).
+
+
 
 The dataset consists of 10015 images with 10013 labeled objects belonging to 7 different classes including *melanocytic nevi*, *melanoma*, *benign keratosis-like lesions*, and other: *basal cell carcinoma*, *actinic keratoses*, *vascular lesions*, and *dermatofibroma*.
 
-Images in the Skin cancer HAM10000 dataset have pixel-level instance segmentation annotations. Due to the nature of the instance segmentation task, it can be automatically transformed into a semantic segmentation (only one mask for every class) or object detection (bounding boxes for every object) tasks. There are 2 (0% of the total) unlabeled images (i.e. without annotations). There is 1 split in the dataset: *ds* (10015 images). The dataset was released in 2021.
+Images in the Skin Cancer (HAM10000) dataset have pixel-level semantic segmentation annotations. Due to the nature of the semantic segmentation task, it can be automatically transformed into an object detection (bounding boxes for every object) task. There are 2 (0% of the total) unlabeled images (i.e. without annotations). There are no pre-defined <i>train/val/test</i> splits in the dataset. The original dataset was released in 2021 by the [Medical University of Vienna, Austria](https://www.meduniwien.ac.at/web/) and [University of Queensland, Austria](https://www.uq.edu.au/).
 
 Here are the visualized examples for each of the 7 classes:
 
-[Dataset classes](https://github.com/dataset-ninja/skin-cancer-ham10000/raw/main/visualizations/horizontal_grid.webm)
+[Dataset classes](https://github.com/dataset-ninja/skin-cancer-ham10000/raw/main/visualizations/classes_preview.webm)
