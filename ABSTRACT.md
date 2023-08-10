@@ -1,24 +1,13 @@
-### Description
+To address the challenges of training neural networks for automated diagnosis of pigmented skin lesions, the authors introduced the **HAM10000** ("Human Against Machine with 10000 training images") dataset. This dataset aimed to overcome the limitations of small-sized and homogeneous dermatoscopic image datasets by providing a diverse and extensive collection. To achieve this, they collected dermatoscopic images from various populations using different modalities, which necessitated employing distinct acquisition and cleaning methods. The authors also designed semi-automatic workflows that incorporated specialized neural networks to enhance the dataset's quality. The resulting HAM10000 dataset comprised 10,015 dermatoscopic images, which were made available for academic machine learning applications through the ISIC archive. This dataset served as a benchmark for machine learning experiments and comparisons with human experts.
 
-The original [HAM10000 dataset](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T) cannot be easily downloaded in jupyter notebooks from the source.
+Dermatoscopy, a diagnostic technique for pigmented skin lesions, offers improved diagnostic accuracy compared to unaided visual examination. The authors noted that dermatoscopic images could be employed to train artificial neural networks for automated diagnosis. While previous attempts had shown promise, their effectiveness was limited by small sample sizes and a lack of diversity in dermatoscopic images. Recent advancements in machine learning and graphics card capabilities indicated the potential for comprehensive automated diagnostic systems, capable of diagnosing various pigmented skin lesions without human intervention.
 
-Also, the other HAM10000 datasets on Kaggle do not have the segmentation masks provided by Philipp Tschandl [here](https://doi.org/10.1038/s41591-020-0942-0) and [here](https://www.kaggle.com/tschandl/ham10000-lesion-segmentations)
+Historically, available datasets were primarily focused on melanocytic lesions and disregarded non-melanocytic pigmented lesions, despite their prevalence in clinical practice. This discrepancy between training data and real-world scenarios contributed to moderate performance in clinical settings despite favorable results in controlled experiments. The authors recognized the need for a dataset that encompassed a broader range of lesions, leading to the release of the HAM10000 dataset. While initially developed for the ISIC 2018 classification challenge, this dataset was also made accessible to other research groups for further exploration.
 
-So I created this dataset where one can access all the source data in one place without any transformations.
+The HAM10000 dataset contained 10,015 dermatoscopic images collected over two decades from diverse sources, including the Department of Dermatology at the Medical University of Vienna, Austria, and a skin cancer practice in Queensland, Australia. The authors highlighted their use of various formats to store images and metadata, given the evolution of image storage technologies over time. For instance, images from the Vienna site were initially stored as diapositives and later digitized.
 
----
+To ensure dataset quality, the authors introduced an automated method to categorize images based on image type. This approach utilized a trained InceptionV3 neural network to classify images as overviews, close-ups, or dermatoscopy images. This method significantly expedited the process of selecting dermatoscopic images for the dataset. The authors also unified histopathologic diagnoses to form seven generic classes that covered the majority of pigmented lesions encountered in clinical practice.
 
-Cases include a representative collection of all important diagnostic categories in the realm of pigmented lesions:
+Finally, a manual quality review was conducted to eliminate cases that didn't meet predefined criteria. This step involved filtering out close-up and overview images, removing images with identifiable content, and ensuring image quality and content alignment with the dataset's purpose.
 
-* Actinic keratoses and intraepithelial carcinoma / Bowen's disease (AKIEC),
-* basal cell carcinoma (BCC),
-* benign keratosis-like lesions (solar lentigines / seborrheic keratoses and lichen-planus like keratoses, BKL),
-* dermatofibroma (DF),
-* melanoma (MEL),
-* melanocytic nevi (NV)
-* vascular lesions (angiomas, angiokeratomas, pyogenic granulomas and hemorrhage, VASC).
-
-### Acknowledgements
-
-* [Tschandl, P., Rinner, C., Apalla, Z. et al. Human–computer collaboration for skin cancer recognition. Nat Med (2020). https://doi.org/10.1038/s41591-020-0942-0](https://doi.org/10.1038/s41591-020-0942-0)
-* [Tschandl, P., Rosendahl, C. &amp; Kittler, H. The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions. Sci Data 5, 180161 (2018). https://doi.org/10.1038/sdata.2018.161](https://doi.org/10.1038/sdata.2018.161)
+Note, that presented dataset is a modification of the original **HAM10000** dataset.

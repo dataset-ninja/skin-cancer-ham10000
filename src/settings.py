@@ -21,7 +21,7 @@ PROJECT_NAME_FULL: str = "Skin Cancer: HAM10000"
 ##################################
 LICENSE: License = License.CC_BY_NC_4_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Research.Medical()]
-CATEGORY: Category = Category.Medical(original_source=False, sensitive_content=True)
+CATEGORY: Category = Category.Medical(is_original_dataset=False, sensitive_content=True)
 
 CV_TASKS: List[CVTask] = [CVTask.SemanticSegmentation()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.SemanticSegmentation()]
@@ -56,7 +56,7 @@ PAPER: Optional[str] = [
     "https://www.nature.com/articles/sdata2018161",
     "https://www.nature.com/articles/s41591-020-0942-0",
 ]
-CITATION_URL: Optional[str] = None
+CITATION_URL: Optional[str] = "https://github.com/ptschandl/HAM10000_dataset#cite"
 AUTHORS: Optional[List[str]] = [
     "Tschandl, Philipp",
     "Cliff Rosendahl",
