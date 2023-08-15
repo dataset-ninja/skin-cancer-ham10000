@@ -1,6 +1,6 @@
 Dataset **Skin Cancer (HAM10000)** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/G/O/Sf/aPfF6oRxZOmGEehj6LBJ1Clt7RU6jC4K9Ys9n7IaT90TV1n16aIUGZ3CjI45JPxCOV3821Cj4itPJOlIL2SwR89dL67cSnw74txPKUnEkx7iyzhAuFAgIaqv8YJp.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/d/U/kz/D9qew2Nt1icvc8SQRuj474PIWKB8c3vMsyAuLdLHAZNMVFPJfHL6l70M3zo15oBp5lm8vuBRgOaVuXOu2pa4gB15ZEx182fbMv8DWc9vvTduyrXpYtlLv6u8a6hr.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
@@ -15,4 +15,4 @@ dtools.download(dataset='Skin Cancer (HAM10000)', dst_dir='~/dataset-ninja/')
 ```
 Make sure not to overlook the [python code example](https://developer.supervisely.com/getting-started/python-sdk-tutorials/iterate-over-a-local-project) available on the Supervisely Developer Portal. It will give you a clear idea of how to effortlessly work with the downloaded dataset.
 
-The data in original format can be [downloaded here](https://www.kaggle.com/datasets/surajghuwalewala/ham1000-segmentation-and-classification/download?datasetVersionNumber=2)
+The data in original format can be [downloaded here](https://www.kaggle.com/datasets/surajghuwalewala/ham1000-segmentation-and-classification/download?datasetVersionNumber=2).
