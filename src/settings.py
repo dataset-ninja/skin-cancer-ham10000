@@ -57,6 +57,8 @@ PAPER: Optional[str] = [
     "https://www.nature.com/articles/sdata2018161",
     "https://www.nature.com/articles/s41591-020-0942-0",
 ]
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"Original Data":"https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T", "GitHub":"https://github.com/ptschandl/HAM10000_dataset"}
+
 CITATION_URL: Optional[str] = "https://github.com/ptschandl/HAM10000_dataset#cite"
 AUTHORS: Optional[List[str]] = [
     "Tschandl, Philipp",
@@ -64,13 +66,14 @@ AUTHORS: Optional[List[str]] = [
     "Harald Kittler",
     "Suraj Ghuwalewala",
 ]
+AUTHORS_CONTACTS: Optional[List[str]] = ["ghuwalewalasuraj@gmail.com" ,"philipp.tschandl@meduniwien.ac.at", "harald.kittler@meduniwien.ac.at"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
-    "Medical University of Vienna, Austria",
+    "ViDIR Group in Medical University of Vienna, Austria",
     "University of Queensland, Austria",
 ]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
-    "https://www.meduniwien.ac.at/web/",
+    "https://www.meduniwien.ac.at/vidir",
     "https://www.uq.edu.au/",
 ]
 
