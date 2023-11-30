@@ -1,6 +1,6 @@
 Dataset **Skin Cancer: HAM10000** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/9/9/E6/KArHitfX9jzRrI4jx1bnTqZnqKftxaCm5Z4p30VqJg4EdhjgCB8QGj6kDr1YpM4mxbhA6pS4q6At09C1lZa588xIbbALzyPXkvYlnmfOMEsmcMFPNs7xLxtWgmOa.tar)
+ [Download](https://www.dropbox.com/scl/fi/x1l55hstvsiigz938yz66/skin-cancer-ham10000-DatasetNinja.tar?rlkey=jjaj1uaryqa9d7qdb16soyh8a&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
