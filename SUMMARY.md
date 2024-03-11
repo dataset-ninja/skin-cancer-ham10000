@@ -2,7 +2,7 @@
 
 The dataset consists of 10015 images with 10013 labeled objects belonging to 7 different classes including *melanocytic nevi*, *melanoma*, *benign keratosis-like lesions*, and other: *basal cell carcinoma*, *actinic keratoses*, *vascular lesions*, and *dermatofibroma*.
 
-Images in the Skin Cancer: HAM10000 dataset have pixel-level semantic segmentation annotations. There are 2 (0% of the total) unlabeled images (i.e. without annotations). There are no pre-defined <i>train/val/test</i> splits in the dataset. The dataset was released in 2021 by the ViDIR Group in Medical University of Vienna, Austria and University of Queensland, Austria.
+Images in the Skin Cancer: HAM10000 dataset have pixel-level semantic segmentation annotations. There are 2 (0% of the total) unlabeled images (i.e. without annotations). There are no pre-defined <i>train/val/test</i> splits in the dataset. The dataset was released in 2021 by the <span style="font-weight: 600; color: grey; border-bottom: 1px dashed #d3d3d3;">ViDIR Group in Medical University of Vienna, Austria</span> and <span style="font-weight: 600; color: grey; border-bottom: 1px dashed #d3d3d3;">University of Queensland, Austria</span>.
 
 Here are the visualized examples for the classes:
 
